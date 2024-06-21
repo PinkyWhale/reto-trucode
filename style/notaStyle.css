@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    width: 93%;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1.5px solid #4f4f4f;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    resize: none; /* bug de expandir */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4f4f4f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1.5px solid #4f4f4f;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note button {
+    background-color: #e0e0e0;
+    border: none;
+    color: #4f4f4f;
+    width: 30%;
+    padding: 5px 10px;
+    margin-left: 70%; /* Boton a la derecha*/
+    cursor: pointer;
+    border-radius: 10px;
+}
